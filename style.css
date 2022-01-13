@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root{
+    --white: #ffffff;
+    --theme: #ECD6C4;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 18px;
+}
+
+.header-image {
+    height: 72px;
+}
+.navigation-menu{
+    display: flex;
+    gap: 30px;
+}
+
+.navigation-menu-link {
+    font-family: 'Sarala', sans-serif;
+    color: var(--white);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.content {
+    border-top: 0.4px solid #FFF2E7;
+    margin-bottom: 48px;
+}
+
+.main-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.right-main-section{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.right-main-section-title {
+    font-family: 'Righteous', cursive;
+    color: var(--theme);
+    font-weight: 400;
+    font-size: 64px;
+}
+
+.right-main-section-subtitle{
+    font-family: 'Sarala', sans-serif;
+    color: var(--theme);
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.right-main-section-button{
+    padding: 10px;
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    background: var(--theme);
+    font-weight: 400;
+    font-size: 18px;
+    width: 40%;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+}
+
+.right-main-section-button:hover{
+    background: var(--white);
+    cursor: pointer;
+}
+
+.left-main-section{
+    height: 430px;
+}
+
+.bottom-section{
+    margin-top: 60px;
+    align-items: center;
+    font-family: 'Sarala', sans-serif;
+    color: var(--theme);
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.bottom-section-title{
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 70px;
+    margin-bottom: 20px;
+    font-family: 'Righteous', cursive;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.bottom-section-feature{
+    font-size: 18px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+}
+
+footer{
+    border-top: 0.4px solid #FFF2E7;
+    padding: 32px;
+}
+
+.ballefooter{
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
